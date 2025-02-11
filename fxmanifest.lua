@@ -4,6 +4,7 @@ games { 'rdr3', 'gta5' }
 author 'ScrachStack'
 description 'Bus Stops'
 version '1.0.0'
+lua54 'yes'
 
 client_scripts {
     'client/*',
@@ -11,5 +12,5 @@ client_scripts {
 
 server_script 'server/*'
 
-
+shared_script '@ox_lib/init.lua'
 shared_script 'config.lua'
