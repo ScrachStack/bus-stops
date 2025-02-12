@@ -38,9 +38,7 @@ function supdate()
     end
     
     AddEventHandler('onResourceStart', function(resource)
-        if resource == 'bus-stops' then
-            supdate()
-        else 
-            print("[ALERT!!! Please rename your resource to bus-stops") -- Please do not edit this is how I keep track of how many servers use it.
-        end
+            if resource == 'bus-stops'  then
+                supdate()
+            end
     end)
