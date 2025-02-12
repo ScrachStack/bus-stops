@@ -3,7 +3,7 @@ games { 'rdr3', 'gta5' }
 
 author 'ScrachStack'
 description 'Bus Stops'
-version '1.0.0'
+version '1.0.1'
 lua54 'yes'
 
 client_scripts {
